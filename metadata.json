@@ -1,0 +1,8 @@
+{
+  "name": "MindChat - English Evolution",
+  "description": "Uma landing page de alta conversão para o MindChat, focada em transformar o aprendizado de inglês através de aulas ao vivo e interatividade real.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

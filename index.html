@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindChat Idiomas - Transforme Sua Carreira com Inglês, Espanhol e Italiano Online</title>
+    <meta name="description" content="Aprenda inglês, espanhol e italiano com aulas ao vivo, professores dedicados e metodologia que desenvolve muito além do idioma.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    
+    <style>
+        :root {
+            --mindchat-purple: #3E2A5F;
+            --mindchat-purple-dark: #2F1E4A;
+            --mindchat-purple-light: #4D3670;
+            --mindchat-orange: #F37600;
+            --mindchat-orange-text: #FB7102;
+            --mindchat-white: #FFFFFF;
+            --bg-light: #F8FAFC;
+            --text-dark: #1F2937;
+            --text-gray: #6B7280;
+            --text-light: #9CA3AF;
+        }
+        
+        body { font-family: 'Inter', sans-serif; color: var(--text-dark); background: var(--mindchat-white); margin: 0; }
+        h1, h2, h3, h4 { font-family: 'Poppins', sans-serif; }
+
+        .bg-gradient-hero {
+            background: linear-gradient(135deg, var(--mindchat-purple-dark) 0%, var(--mindchat-purple) 100%);
+        }
+        
+        .text-shadow-vivid {
+            text-shadow: 0 4px 12px rgba(0,0,0,0.4);
+        }
+
+        .dropdown-content {
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+    </style>
+    <script type="importmap">
+    {
+      "imports": {
+        "react/": "https://esm.sh/react@^19.2.4/",
+        "react": "https://esm.sh/react@^19.2.4",
+        "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+        "gsap/": "https://esm.sh/gsap@^3.14.2/",
+        "gsap": "https://esm.sh/gsap@^3.14.2"
+      }
+    }
+    </script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="module" src="index.tsx"></script>
+</body>
+</html>
